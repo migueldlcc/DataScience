@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2dc8d8b729c9f7de9dbd7595b31e1b5f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2dc8d8b729c9f7de9dbd7595b31e1b5f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2dc8d8b729c9f7de9dbd7595b31e1b5f = L.map(
+                "map_2dc8d8b729c9f7de9dbd7595b31e1b5f",
+                {
+                    center: [51.8743286132813, 4.39427804946899],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_097c915ff3b436c6a28151b9753e8e46 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_097c915ff3b436c6a28151b9753e8e46.addTo(map_2dc8d8b729c9f7de9dbd7595b31e1b5f);
+        
+    
+            var marker_ff1b2e6d7a16d2b3434758a3f4b6961c = L.marker(
+                [51.87429, 4.39599],
+                {}
+            ).addTo(map_2dc8d8b729c9f7de9dbd7595b31e1b5f);
+        
+    
+            var icon_208d1b4baced85e38ef6073c72c58999 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ff1b2e6d7a16d2b3434758a3f4b6961c.setIcon(icon_208d1b4baced85e38ef6073c72c58999);
+        
+    
+        var popup_4d832fdc37beaa2f898524f2ee7a79c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44aba84df90616617142837ba1e5dbcb = $(`<div id="html_44aba84df90616617142837ba1e5dbcb" style="width: 100.0%; height: 100.0%;">Camera ID: RWS01_MONIBAS_0150vwq0512ra Distance: 0.12 km</div>`)[0];
+                popup_4d832fdc37beaa2f898524f2ee7a79c8.setContent(html_44aba84df90616617142837ba1e5dbcb);
+            
+        
+
+        marker_ff1b2e6d7a16d2b3434758a3f4b6961c.bindPopup(popup_4d832fdc37beaa2f898524f2ee7a79c8)
+        ;
+
+        
+    
+    
+            var marker_deec8d2cc55140a98b85ee72105f6ce9 = L.marker(
+                [51.87406, 4.40375],
+                {}
+            ).addTo(map_2dc8d8b729c9f7de9dbd7595b31e1b5f);
+        
+    
+            var icon_bc1b4ca37f654629b985d1db98b562ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_deec8d2cc55140a98b85ee72105f6ce9.setIcon(icon_bc1b4ca37f654629b985d1db98b562ae);
+        
+    
+        var popup_7e3f5914ed9c44e8286f28fcb11cfc4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94e7d09d7e16f25dc4115ccd3817c43b = $(`<div id="html_94e7d09d7e16f25dc4115ccd3817c43b" style="width: 100.0%; height: 100.0%;">Camera ID: RWS01_MONIBAS_0150vwy0517ra Distance: 0.65 km</div>`)[0];
+                popup_7e3f5914ed9c44e8286f28fcb11cfc4b.setContent(html_94e7d09d7e16f25dc4115ccd3817c43b);
+            
+        
+
+        marker_deec8d2cc55140a98b85ee72105f6ce9.bindPopup(popup_7e3f5914ed9c44e8286f28fcb11cfc4b)
+        ;
+
+        
+    
+    
+            var marker_e7bfc9e5fe4a864c273a30a668b22a3b = L.marker(
+                [51.87394, 4.40749],
+                {}
+            ).addTo(map_2dc8d8b729c9f7de9dbd7595b31e1b5f);
+        
+    
+            var icon_19b07674dad5f9119b16c2e2bd705903 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e7bfc9e5fe4a864c273a30a668b22a3b.setIcon(icon_19b07674dad5f9119b16c2e2bd705903);
+        
+    
+        var popup_02663d54a93b628bdb5a0a75ac9d194d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f322d9457d50940dc70f88ccc3390d4c = $(`<div id="html_f322d9457d50940dc70f88ccc3390d4c" style="width: 100.0%; height: 100.0%;">Camera ID: RWS01_MONIBAS_0150vwy0520ra Distance: 0.91 km</div>`)[0];
+                popup_02663d54a93b628bdb5a0a75ac9d194d.setContent(html_f322d9457d50940dc70f88ccc3390d4c);
+            
+        
+
+        marker_e7bfc9e5fe4a864c273a30a668b22a3b.bindPopup(popup_02663d54a93b628bdb5a0a75ac9d194d)
+        ;
+
+        
+    
+    
+            var marker_bbb3f79ebdb83b86e6c9643fe004942f = L.marker(
+                [51.87365, 4.41145],
+                {}
+            ).addTo(map_2dc8d8b729c9f7de9dbd7595b31e1b5f);
+        
+    
+            var icon_3f06497ed5dd41643d2e1a6bb9873908 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bbb3f79ebdb83b86e6c9643fe004942f.setIcon(icon_3f06497ed5dd41643d2e1a6bb9873908);
+        
+    
+        var popup_a72f32e29c06e1024f21688f8e03a6fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d4c5a866b3e9a5aa7ec4884ec1287a6 = $(`<div id="html_6d4c5a866b3e9a5aa7ec4884ec1287a6" style="width: 100.0%; height: 100.0%;">Camera ID: RWS01_MONIBAS_0150vwy0523ra Distance: 1.18 km</div>`)[0];
+                popup_a72f32e29c06e1024f21688f8e03a6fc.setContent(html_6d4c5a866b3e9a5aa7ec4884ec1287a6);
+            
+        
+
+        marker_bbb3f79ebdb83b86e6c9643fe004942f.bindPopup(popup_a72f32e29c06e1024f21688f8e03a6fc)
+        ;
+
+        
+    
+    
+            var marker_c6d0fa6ee16900ea817ea1fdade9ff0b = L.marker(
+                [51.87301, 4.41728],
+                {}
+            ).addTo(map_2dc8d8b729c9f7de9dbd7595b31e1b5f);
+        
+    
+            var icon_1ff222dd8389b2b998ad7bc153df4676 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c6d0fa6ee16900ea817ea1fdade9ff0b.setIcon(icon_1ff222dd8389b2b998ad7bc153df4676);
+        
+    
+        var popup_fd02dfbf0209b31da20ae052873f13f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a933ac0c009030fa20aae6c108fb8461 = $(`<div id="html_a933ac0c009030fa20aae6c108fb8461" style="width: 100.0%; height: 100.0%;">Camera ID: RWS01_MONIBAS_0150vwy0526ra Distance: 1.59 km</div>`)[0];
+                popup_fd02dfbf0209b31da20ae052873f13f4.setContent(html_a933ac0c009030fa20aae6c108fb8461);
+            
+        
+
+        marker_c6d0fa6ee16900ea817ea1fdade9ff0b.bindPopup(popup_fd02dfbf0209b31da20ae052873f13f4)
+        ;
+
+        
+    
+    
+            var marker_a4a22fe619d4cdc0b110cab479d84bdd = L.marker(
+                [51.8743286132813, 4.39427804946899],
+                {}
+            ).addTo(map_2dc8d8b729c9f7de9dbd7595b31e1b5f);
+        
+    
+            var icon_d2d54c9faa65ff697220197f8d25ab22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a4a22fe619d4cdc0b110cab479d84bdd.setIcon(icon_d2d54c9faa65ff697220197f8d25ab22);
+        
+    
+        var popup_7f021d1c2c7d74dbcbee373536f23c75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a6b353897af6a0700a9361bb8ca6e5b = $(`<div id="html_1a6b353897af6a0700a9361bb8ca6e5b" style="width: 100.0%; height: 100.0%;">Incident Location</div>`)[0];
+                popup_7f021d1c2c7d74dbcbee373536f23c75.setContent(html_1a6b353897af6a0700a9361bb8ca6e5b);
+            
+        
+
+        marker_a4a22fe619d4cdc0b110cab479d84bdd.bindPopup(popup_7f021d1c2c7d74dbcbee373536f23c75)
+        ;
+
+        
+    
+</script>
+</html>
