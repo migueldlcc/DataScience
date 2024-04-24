@@ -1,0 +1,186 @@
+2024-04-23 01:27:22,823 - INFO - This is an info message
+2024-04-23 01:27:22,824 - WARNING - This is a warning message
+2024-04-23 01:27:22,828 - INFO - Processing date range 1/4: from 2020-03-01 to 2020-03-07
+2024-04-23 01:27:22,829 - INFO - Found 0 incidents in this date range.
+2024-04-23 01:27:22,829 - INFO - Processing date range 2/4: from 2020-03-08 to 2020-03-14
+2024-04-23 01:27:22,830 - INFO - Found 0 incidents in this date range.
+2024-04-23 01:27:22,830 - INFO - Processing date range 3/4: from 2020-03-15 to 2020-03-21
+2024-04-23 01:27:22,831 - INFO - Found 80 incidents in this date range.
+2024-04-23 01:30:08,716 - INFO - This is an info message
+2024-04-23 01:30:08,717 - WARNING - This is a warning message
+2024-04-23 01:30:08,721 - INFO - Processing date range 1/4: from 2020-03-01 to 2020-03-07
+2024-04-23 01:30:08,722 - INFO - Found 0 incidents in this date range.
+2024-04-23 01:30:08,722 - INFO - Processing date range 2/4: from 2020-03-08 to 2020-03-14
+2024-04-23 01:30:08,723 - INFO - Found 0 incidents in this date range.
+2024-04-23 01:30:08,723 - INFO - Processing date range 3/4: from 2020-03-15 to 2020-03-21
+2024-04-23 01:30:08,723 - INFO - Found 80 incidents in this date range.
+2024-04-23 01:30:32,308 - INFO - This is an info message
+2024-04-23 01:30:32,309 - WARNING - This is a warning message
+2024-04-23 01:30:32,313 - INFO - Processing date range 1/4: from 2020-03-01 to 2020-03-07
+2024-04-23 01:30:32,314 - INFO - Found 0 incidents in this date range.
+2024-04-23 01:30:32,314 - INFO - Processing date range 2/4: from 2020-03-08 to 2020-03-14
+2024-04-23 01:30:32,315 - INFO - Found 0 incidents in this date range.
+2024-04-23 01:30:32,315 - INFO - Processing date range 3/4: from 2020-03-15 to 2020-03-21
+2024-04-23 01:30:32,316 - INFO - Found 80 incidents in this date range.
+2024-04-23 01:33:42,142 - INFO - This is an info message
+2024-04-23 01:33:42,142 - WARNING - This is a warning message
+2024-04-23 01:33:42,146 - INFO - Processing date range 1/4: from 2020-03-01 to 2020-03-07
+2024-04-23 01:33:42,147 - INFO - Found 0 incidents in this date range.
+2024-04-23 01:33:42,147 - INFO - Processing date range 2/4: from 2020-03-08 to 2020-03-14
+2024-04-23 01:33:42,148 - INFO - Found 0 incidents in this date range.
+2024-04-23 01:33:42,148 - INFO - Processing date range 3/4: from 2020-03-15 to 2020-03-21
+2024-04-23 01:33:42,149 - INFO - Found 80 incidents in this date range.
+2024-04-23 01:43:35,238 - INFO - This is an info message
+2024-04-23 01:43:35,238 - WARNING - This is a warning message
+2024-04-23 01:43:35,242 - INFO - Processing date range 1/4: from 2020-03-01 to 2020-03-07
+2024-04-23 01:43:35,244 - INFO - Found 0 incidents in this date range.
+2024-04-23 01:43:35,244 - INFO - Processing date range 2/4: from 2020-03-08 to 2020-03-14
+2024-04-23 01:43:35,246 - INFO - Found 0 incidents in this date range.
+2024-04-23 01:43:35,246 - INFO - Processing date range 3/4: from 2020-03-15 to 2020-03-21
+2024-04-23 01:43:35,247 - INFO - Found 80 incidents in this date range.
+2024-04-23 01:59:21,643 - INFO - This is an info message
+2024-04-23 01:59:21,644 - WARNING - This is a warning message
+2024-04-23 01:59:21,648 - INFO - Processing date range 1/4: from 2020-03-01 to 2020-03-07
+2024-04-23 01:59:21,649 - INFO - Found 0 incidents in this date range.
+2024-04-23 01:59:21,649 - INFO - Processing date range 2/4: from 2020-03-08 to 2020-03-14
+2024-04-23 01:59:21,649 - INFO - Found 0 incidents in this date range.
+2024-04-23 01:59:21,650 - INFO - Processing date range 3/4: from 2020-03-15 to 2020-03-21
+2024-04-23 01:59:21,650 - INFO - Found 0 incidents in this date range.
+2024-04-23 01:59:21,650 - INFO - Processing date range 4/4: from 2020-03-22 to 2020-03-28
+2024-04-23 01:59:21,651 - INFO - Found 0 incidents in this date range.
+2024-04-23 01:59:21,651 - INFO - Total incidents processed: 0
+2024-04-23 01:59:21,651 - INFO - Incidents with insufficient cameras: 0
+2024-04-23 01:59:48,194 - INFO - This is an info message
+2024-04-23 01:59:48,194 - WARNING - This is a warning message
+2024-04-23 01:59:48,198 - INFO - Processing date range 1/4: from 2020-03-01 to 2020-03-07
+2024-04-23 01:59:48,199 - INFO - Found 0 incidents in this date range.
+2024-04-23 01:59:48,199 - INFO - Processing date range 2/4: from 2020-03-08 to 2020-03-14
+2024-04-23 01:59:48,200 - INFO - Found 0 incidents in this date range.
+2024-04-23 01:59:48,200 - INFO - Processing date range 3/4: from 2020-03-15 to 2020-03-21
+2024-04-23 01:59:48,201 - INFO - Found 0 incidents in this date range.
+2024-04-23 01:59:48,201 - INFO - Processing date range 4/4: from 2020-03-22 to 2020-03-28
+2024-04-23 01:59:48,201 - INFO - Found 0 incidents in this date range.
+2024-04-23 01:59:48,201 - INFO - Total incidents processed: 0
+2024-04-23 01:59:48,202 - INFO - Incidents with insufficient cameras: 0
+2024-04-23 02:00:10,923 - INFO - This is an info message
+2024-04-23 02:00:10,924 - WARNING - This is a warning message
+2024-04-23 02:00:10,931 - INFO - Processing date range 1/4: from 2020-03-01 to 2020-03-07
+2024-04-23 02:00:10,932 - INFO - Found 0 incidents in this date range.
+2024-04-23 02:00:10,932 - INFO - Processing date range 2/4: from 2020-03-08 to 2020-03-14
+2024-04-23 02:00:10,932 - INFO - Found 0 incidents in this date range.
+2024-04-23 02:00:10,933 - INFO - Processing date range 3/4: from 2020-03-15 to 2020-03-21
+2024-04-23 02:00:10,933 - INFO - Found 0 incidents in this date range.
+2024-04-23 02:00:10,933 - INFO - Processing date range 4/4: from 2020-03-22 to 2020-03-28
+2024-04-23 02:00:10,934 - INFO - Found 0 incidents in this date range.
+2024-04-23 02:00:10,934 - INFO - Total incidents processed: 0
+2024-04-23 02:00:10,934 - INFO - Incidents with insufficient cameras: 0
+2024-04-23 11:22:54,576 - INFO - This is an info message
+2024-04-23 11:22:54,577 - WARNING - This is a warning message
+2024-04-23 11:22:54,581 - INFO - Processing date range 1/4: from 2020-03-01 to 2020-03-07
+2024-04-23 11:22:54,582 - INFO - Found 0 incidents in this date range.
+2024-04-23 11:22:54,582 - INFO - Processing date range 2/4: from 2020-03-08 to 2020-03-14
+2024-04-23 11:22:54,583 - INFO - Found 0 incidents in this date range.
+2024-04-23 11:22:54,583 - INFO - Processing date range 3/4: from 2020-03-15 to 2020-03-21
+2024-04-23 11:22:54,584 - INFO - Found 0 incidents in this date range.
+2024-04-23 11:22:54,584 - INFO - Processing date range 4/4: from 2020-03-22 to 2020-03-28
+2024-04-23 11:22:54,584 - INFO - Found 0 incidents in this date range.
+2024-04-23 11:22:54,585 - INFO - Total incidents processed: 0
+2024-04-23 11:22:54,585 - INFO - Incidents with insufficient cameras: 0
+2024-04-23 11:24:11,065 - INFO - This is an info message
+2024-04-23 11:24:11,066 - WARNING - This is a warning message
+2024-04-23 11:24:11,070 - INFO - Processing date range 1/4: from 2020-03-01 to 2020-03-07
+2024-04-23 11:24:11,071 - INFO - Found 0 incidents in this date range.
+2024-04-23 11:24:11,072 - INFO - Processing date range 2/4: from 2020-03-08 to 2020-03-14
+2024-04-23 11:24:11,072 - INFO - Found 0 incidents in this date range.
+2024-04-23 11:24:11,072 - INFO - Processing date range 3/4: from 2020-03-15 to 2020-03-21
+2024-04-23 11:24:11,073 - INFO - Found 0 incidents in this date range.
+2024-04-23 11:24:11,073 - INFO - Processing date range 4/4: from 2020-03-22 to 2020-03-28
+2024-04-23 11:24:11,073 - INFO - Found 0 incidents in this date range.
+2024-04-23 11:24:11,074 - INFO - Total incidents processed: 0
+2024-04-23 11:24:11,074 - INFO - Incidents with insufficient cameras: 0
+2024-04-23 11:25:45,251 - INFO - This is an info message
+2024-04-23 11:25:45,253 - WARNING - This is a warning message
+2024-04-23 11:25:45,283 - INFO - Processing date range 1/4: from 2020-03-01 to 2020-03-07
+2024-04-23 11:25:45,286 - INFO - Found 0 incidents in this date range.
+2024-04-23 11:25:45,287 - INFO - Processing date range 2/4: from 2020-03-08 to 2020-03-14
+2024-04-23 11:25:45,290 - INFO - Found 0 incidents in this date range.
+2024-04-23 11:25:45,291 - INFO - Processing date range 3/4: from 2020-03-15 to 2020-03-21
+2024-04-23 11:25:45,293 - INFO - Found 0 incidents in this date range.
+2024-04-23 11:25:45,294 - INFO - Processing date range 4/4: from 2020-03-22 to 2020-03-28
+2024-04-23 11:25:45,296 - INFO - Found 0 incidents in this date range.
+2024-04-23 11:25:45,297 - INFO - Total incidents processed: 0
+2024-04-23 11:25:45,298 - INFO - Incidents with insufficient cameras: 0
+2024-04-23 11:38:52,007 - INFO - This is an info message
+2024-04-23 11:38:52,007 - WARNING - This is a warning message
+2024-04-23 11:38:52,011 - INFO - Processing date range 1/4: from 2020-03-01 to 2020-03-07
+2024-04-23 11:38:52,012 - INFO - Found 11 incidents in this date range.
+2024-04-23 11:52:10,089 - INFO - This is an info message
+2024-04-23 11:52:10,090 - WARNING - This is a warning message
+2024-04-23 11:55:49,987 - INFO - This is an info message
+2024-04-23 11:55:49,987 - WARNING - This is a warning message
+2024-04-23 13:41:34,245 - INFO - This is an info message
+2024-04-23 13:41:34,245 - WARNING - This is a warning message
+2024-04-23 13:41:34,253 - INFO - Processing date range 1/4: from 2020-03-01 to 2020-03-07
+2024-04-23 13:41:34,254 - INFO - Found 11 incidents in this date range.
+2024-04-23 13:52:53,655 - INFO - Processing date range 2/4: from 2020-03-08 to 2020-03-14
+2024-04-23 13:52:53,656 - INFO - Found 14 incidents in this date range.
+2024-04-23 14:07:27,374 - INFO - Processing date range 3/4: from 2020-03-15 to 2020-03-21
+2024-04-23 14:07:27,375 - INFO - Found 16 incidents in this date range.
+2024-04-23 14:24:36,076 - INFO - Processing date range 4/4: from 2020-03-22 to 2020-03-29
+2024-04-23 14:24:36,077 - INFO - Found 25 incidents in this date range.
+2024-04-23 14:55:11,891 - INFO - Total incidents processed: 66
+2024-04-23 14:55:11,892 - INFO - Incidents with insufficient cameras: 0
+2024-04-24 11:38:14,599 - INFO - This is an info message
+2024-04-24 11:38:14,600 - WARNING - This is a warning message
+2024-04-24 11:38:14,607 - INFO - Processing date range 1/4: from 2020-03-01 to 2020-03-07
+2024-04-24 11:38:14,608 - INFO - Found 11 incidents in this date range.
+2024-04-24 11:49:38,553 - INFO - This is an info message
+2024-04-24 11:49:38,554 - WARNING - This is a warning message
+2024-04-24 11:49:38,571 - INFO - Processing date range 1/4: from 2020-03-01 to 2020-03-07
+2024-04-24 11:49:38,575 - INFO - Found 11 incidents in this date range.
+2024-04-24 11:50:42,532 - ERROR - An error occurred during processing
+Traceback (most recent call last):
+  File "/var/folders/c0/2gmfm5qd4tl9nzl882r0xr040000gn/T/ipykernel_72971/3971624521.py", line 27, in <module>
+    create_x_t_v_for_incident_row(incident_row, file_name_for_saving)
+  File "/var/folders/c0/2gmfm5qd4tl9nzl882r0xr040000gn/T/ipykernel_72971/234532136.py", line 87, in create_x_t_v_for_incident_row
+    incident_data = create_interpolation_data_for_incident(incident_row)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/c0/2gmfm5qd4tl9nzl882r0xr040000gn/T/ipykernel_72971/234532136.py", line 62, in create_interpolation_data_for_incident
+    speedflow_data = speed_flow_data_for_incident(camera_ids, start_time_for_diagram, end_time_for_diagram)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/c0/2gmfm5qd4tl9nzl882r0xr040000gn/T/ipykernel_72971/234532136.py", line 39, in speed_flow_data_for_incident
+    for chunk in pd.read_csv(file_name, chunksize=chunksize):
+  File "/opt/anaconda3/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1668, in __next__
+    return self.get_chunk()
+           ^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1777, in get_chunk
+    return self.read(nrows=size)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1748, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.11/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 234, in read
+    chunks = self._reader.read_low_memory(nrows)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 855, in pandas._libs.parsers.TextReader.read_low_memory
+  File "parsers.pyx", line 904, in pandas._libs.parsers.TextReader._read_rows
+  File "parsers.pyx", line 879, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "parsers.pyx", line 890, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "parsers.pyx", line 2058, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Calling read(nbytes) on source failed. Try engine='python'.
+2024-04-24 11:53:23,487 - INFO - This is an info message
+2024-04-24 11:53:23,487 - WARNING - This is a warning message
+2024-04-24 11:53:23,496 - INFO - Processing date range 1/4: from 2020-03-01 to 2020-03-07
+2024-04-24 11:53:23,498 - INFO - Found 11 incidents in this date range.
+2024-04-24 12:04:58,941 - INFO - Processing date range 2/4: from 2020-03-08 to 2020-03-14
+2024-04-24 12:04:58,942 - INFO - Found 14 incidents in this date range.
+2024-04-24 12:31:09,273 - INFO - Processing date range 3/4: from 2020-03-15 to 2020-03-21
+2024-04-24 12:31:09,274 - INFO - Found 16 incidents in this date range.
+2024-04-24 12:47:46,337 - INFO - Processing date range 4/4: from 2020-03-22 to 2020-03-29
+2024-04-24 12:47:46,338 - INFO - Found 25 incidents in this date range.
+2024-04-24 14:05:28,399 - INFO - Total incidents processed: 66
+2024-04-24 14:05:28,400 - INFO - Incidents with insufficient cameras: 0
+2024-04-24 14:07:55,977 - INFO - This is an info message
+2024-04-24 14:07:55,978 - WARNING - This is a warning message
+2024-04-24 14:07:55,984 - INFO - Processing date range 1/4: from 2020-03-01 to 2020-03-07
+2024-04-24 14:07:55,985 - INFO - Found 11 incidents in this date range.

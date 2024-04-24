@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cfb87ef476f93b0606ad644179fd7da1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_cfb87ef476f93b0606ad644179fd7da1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cfb87ef476f93b0606ad644179fd7da1 = L.map(
+                "map_cfb87ef476f93b0606ad644179fd7da1",
+                {
+                    center: [51.9209518432617, 4.36641979217529],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_06c763bf1f3ff07d913c873d40b9c223 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_06c763bf1f3ff07d913c873d40b9c223.addTo(map_cfb87ef476f93b0606ad644179fd7da1);
+        
+    
+            var marker_04b2031901ef0df69385fb842b97ad49 = L.marker(
+                [51.91402, 4.36856],
+                {}
+            ).addTo(map_cfb87ef476f93b0606ad644179fd7da1);
+        
+    
+            var icon_bbe26f32ea3d07aa150b777c4e4c8255 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_04b2031901ef0df69385fb842b97ad49.setIcon(icon_bbe26f32ea3d07aa150b777c4e4c8255);
+        
+    
+        var popup_86240ce206d95e918b15164a6eb1db61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c992fa7694c6dd6c20f8f02a881923fb = $(`<div id="html_c992fa7694c6dd6c20f8f02a881923fb" style="width: 100.0%; height: 100.0%;">Camera ID: RWS01_MONIBAS_0040vwn0713ra Distance: 0.78 km</div>`)[0];
+                popup_86240ce206d95e918b15164a6eb1db61.setContent(html_c992fa7694c6dd6c20f8f02a881923fb);
+            
+        
+
+        marker_04b2031901ef0df69385fb842b97ad49.bindPopup(popup_86240ce206d95e918b15164a6eb1db61)
+        ;
+
+        
+    
+    
+            var marker_2e7f9bec330f20e8c8110c99ceffc2d6 = L.marker(
+                [51.91062, 4.37025],
+                {}
+            ).addTo(map_cfb87ef476f93b0606ad644179fd7da1);
+        
+    
+            var icon_a2260560eb14c6f353b92679fd4f6876 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2e7f9bec330f20e8c8110c99ceffc2d6.setIcon(icon_a2260560eb14c6f353b92679fd4f6876);
+        
+    
+        var popup_a3ec31586a82da11d5d9edd57ca8b414 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1e2cdfef5ca8968480bf1412296d60d = $(`<div id="html_c1e2cdfef5ca8968480bf1412296d60d" style="width: 100.0%; height: 100.0%;">Camera ID: RWS01_MONIBAS_0040vwn0717ra Distance: 1.18 km</div>`)[0];
+                popup_a3ec31586a82da11d5d9edd57ca8b414.setContent(html_c1e2cdfef5ca8968480bf1412296d60d);
+            
+        
+
+        marker_2e7f9bec330f20e8c8110c99ceffc2d6.bindPopup(popup_a3ec31586a82da11d5d9edd57ca8b414)
+        ;
+
+        
+    
+    
+            var marker_c1b272a3bd08e44e38922e4ef19e71ff = L.marker(
+                [51.90524, 4.37113],
+                {}
+            ).addTo(map_cfb87ef476f93b0606ad644179fd7da1);
+        
+    
+            var icon_f6c562b766751b51fc4cf4fcaeece635 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c1b272a3bd08e44e38922e4ef19e71ff.setIcon(icon_f6c562b766751b51fc4cf4fcaeece635);
+        
+    
+        var popup_068df5542d4e5111c9c5a477072d5935 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ee0eeaa6829b3d262e60073569feca8 = $(`<div id="html_7ee0eeaa6829b3d262e60073569feca8" style="width: 100.0%; height: 100.0%;">Camera ID: RWS01_MONIBAS_0040vwn0723ra Distance: 1.78 km</div>`)[0];
+                popup_068df5542d4e5111c9c5a477072d5935.setContent(html_7ee0eeaa6829b3d262e60073569feca8);
+            
+        
+
+        marker_c1b272a3bd08e44e38922e4ef19e71ff.bindPopup(popup_068df5542d4e5111c9c5a477072d5935)
+        ;
+
+        
+    
+    
+            var marker_37ad95d1d5d9bf13cb2e75643f91efb6 = L.marker(
+                [51.92075, 4.36649],
+                {}
+            ).addTo(map_cfb87ef476f93b0606ad644179fd7da1);
+        
+    
+            var icon_f86b7cb802f593b5fe47c68ae0274aa9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_37ad95d1d5d9bf13cb2e75643f91efb6.setIcon(icon_f86b7cb802f593b5fe47c68ae0274aa9);
+        
+    
+        var popup_9fc753a8dbf02f294f6ac3a4209c18e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dab2016937282cdfc506426b0a447c55 = $(`<div id="html_dab2016937282cdfc506426b0a447c55" style="width: 100.0%; height: 100.0%;">Camera ID: RWS01_MONIBAS_0041hrl0706ra Distance: 0.02 km</div>`)[0];
+                popup_9fc753a8dbf02f294f6ac3a4209c18e1.setContent(html_dab2016937282cdfc506426b0a447c55);
+            
+        
+
+        marker_37ad95d1d5d9bf13cb2e75643f91efb6.bindPopup(popup_9fc753a8dbf02f294f6ac3a4209c18e1)
+        ;
+
+        
+    
+    
+            var marker_c2c7ec086e6fe96acbe18d89796514e9 = L.marker(
+                [51.91691, 4.36735],
+                {}
+            ).addTo(map_cfb87ef476f93b0606ad644179fd7da1);
+        
+    
+            var icon_4cdb6e95f04cb467231f61c4e4b37a1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c2c7ec086e6fe96acbe18d89796514e9.setIcon(icon_4cdb6e95f04cb467231f61c4e4b37a1f);
+        
+    
+        var popup_a1060c43d041339f359f9931a90f3336 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc4cef02d83ab304f260127e63c9b414 = $(`<div id="html_fc4cef02d83ab304f260127e63c9b414" style="width: 100.0%; height: 100.0%;">Camera ID: RWS01_MONIBAS_0041hrl0710ra Distance: 0.45 km</div>`)[0];
+                popup_a1060c43d041339f359f9931a90f3336.setContent(html_fc4cef02d83ab304f260127e63c9b414);
+            
+        
+
+        marker_c2c7ec086e6fe96acbe18d89796514e9.bindPopup(popup_a1060c43d041339f359f9931a90f3336)
+        ;
+
+        
+    
+    
+            var marker_d97023d9f8957914b766eaa29d82adcc = L.marker(
+                [51.90806, 4.37118],
+                {}
+            ).addTo(map_cfb87ef476f93b0606ad644179fd7da1);
+        
+    
+            var icon_8e6fe463b553737bc97827326f1910ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d97023d9f8957914b766eaa29d82adcc.setIcon(icon_8e6fe463b553737bc97827326f1910ab);
+        
+    
+        var popup_34c7df7763593340e1b4a8732a59b05f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4df8b3f0d8187f278692dcc57067cee = $(`<div id="html_a4df8b3f0d8187f278692dcc57067cee" style="width: 100.0%; height: 100.0%;">Camera ID: RWS01_MONICA_10D0040B403D68200005 Distance: 1.47 km</div>`)[0];
+                popup_34c7df7763593340e1b4a8732a59b05f.setContent(html_a4df8b3f0d8187f278692dcc57067cee);
+            
+        
+
+        marker_d97023d9f8957914b766eaa29d82adcc.bindPopup(popup_34c7df7763593340e1b4a8732a59b05f)
+        ;
+
+        
+    
+    
+            var marker_d46da785d8273c95fce142fcd08da338 = L.marker(
+                [51.90336, 4.37089],
+                {}
+            ).addTo(map_cfb87ef476f93b0606ad644179fd7da1);
+        
+    
+            var icon_e59ef74c43a6851c33a42da2a67d5873 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d46da785d8273c95fce142fcd08da338.setIcon(icon_e59ef74c43a6851c33a42da2a67d5873);
+        
+    
+        var popup_2887a39fd96ddbdd458f7607f533df5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3374d6b4aebdb43755c2400068436c3c = $(`<div id="html_3374d6b4aebdb43755c2400068436c3c" style="width: 100.0%; height: 100.0%;">Camera ID: RWS01_MONICA_10D0040B545B68200005 Distance: 1.98 km</div>`)[0];
+                popup_2887a39fd96ddbdd458f7607f533df5b.setContent(html_3374d6b4aebdb43755c2400068436c3c);
+            
+        
+
+        marker_d46da785d8273c95fce142fcd08da338.bindPopup(popup_2887a39fd96ddbdd458f7607f533df5b)
+        ;
+
+        
+    
+    
+            var marker_e32aa067d9d440902566269ccf21d506 = L.marker(
+                [51.922442, 4.366503],
+                {}
+            ).addTo(map_cfb87ef476f93b0606ad644179fd7da1);
+        
+    
+            var icon_e2107f80b56ce4523a5e968d29c30a90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e32aa067d9d440902566269ccf21d506.setIcon(icon_e2107f80b56ce4523a5e968d29c30a90);
+        
+    
+        var popup_70f0611bf5f479871f30283922c40b15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d34736d6c2c73c61a6be20abc6c4283e = $(`<div id="html_d34736d6c2c73c61a6be20abc6c4283e" style="width: 100.0%; height: 100.0%;">Camera ID: GEO0K_K_RWSTI357132 Distance: 0.17 km</div>`)[0];
+                popup_70f0611bf5f479871f30283922c40b15.setContent(html_d34736d6c2c73c61a6be20abc6c4283e);
+            
+        
+
+        marker_e32aa067d9d440902566269ccf21d506.bindPopup(popup_70f0611bf5f479871f30283922c40b15)
+        ;
+
+        
+    
+    
+            var marker_5e41e6367304bc68d1338a7a6fd53647 = L.marker(
+                [51.9209518432617, 4.36641979217529],
+                {}
+            ).addTo(map_cfb87ef476f93b0606ad644179fd7da1);
+        
+    
+            var icon_b7b9e0d3a90941b8fb45c7c9600e840d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5e41e6367304bc68d1338a7a6fd53647.setIcon(icon_b7b9e0d3a90941b8fb45c7c9600e840d);
+        
+    
+        var popup_c472b27c7ec755c2de45fd097cef0357 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_855accce10030e007a3e741e625ea50a = $(`<div id="html_855accce10030e007a3e741e625ea50a" style="width: 100.0%; height: 100.0%;">ID: RWS02_0000188891_188891<br>Start: 2020-05-30 19:41:36<br>Type: vehicle_obstruction<br>Detail: emergencyVehicle<br>Segment: west-east<br>Latitude: 51.922501<br>Longitude: 4.415205</div>`)[0];
+                popup_c472b27c7ec755c2de45fd097cef0357.setContent(html_855accce10030e007a3e741e625ea50a);
+            
+        
+
+        marker_5e41e6367304bc68d1338a7a6fd53647.bindPopup(popup_c472b27c7ec755c2de45fd097cef0357)
+        ;
+
+        
+    
+</script>
+</html>
